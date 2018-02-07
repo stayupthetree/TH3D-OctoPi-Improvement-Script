@@ -6,6 +6,7 @@ echo "WARNING! This script will reboot your Pi on completion! DO NOT Run if you 
 echo -n "Do you wish to continue (y/n)?"
 sleep 1
 read answer
+echo $answer
 if echo "$answer" | grep -iq "^y" ;then
     echo Yes
     echo "Installing OctoPrint-FullScreen Plugin"
