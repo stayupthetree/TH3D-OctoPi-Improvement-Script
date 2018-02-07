@@ -4,8 +4,7 @@ echo "TH3D OctoPrint Improver"
 echo "Credit to Timothy Hoogland from https://www.th3dstudio.com/ for well...everything"
 echo "WARNING! This script will reboot your Pi on completion! DO NOT Run if you are in the middle of a print!"
 echo -n "Do you wish to continue (y/n)?"
-sleep 2
-read answer
+read -n 1 answer
 if echo "$answer" | grep -iq "^y" ;then
     echo Yes
     echo "Installing OctoPrint-FullScreen Plugin"
