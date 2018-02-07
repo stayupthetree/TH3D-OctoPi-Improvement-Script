@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 sleep 5
 echo "TH3D OctoPrint Improver"
 echo "Credit to Timothy Hoogland from https://www.th3dstudio.com/ for well...everything"
