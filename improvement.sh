@@ -5,7 +5,6 @@ echo "Credit to Timothy Hoogland from https://www.th3dstudio.com/ for well...eve
 echo "WARNING! This script will reboot your Pi on completion! DO NOT Run if you are in the middle of a print!!"
 echo -n "Do you wish to continue (y/n)?"
 read -n 2 answer 
-echo $answer
 if echo "$answer" | grep -iq "^y" ;then
     echo Yes
     echo "Installing OctoPrint-FullScreen Plugin"
